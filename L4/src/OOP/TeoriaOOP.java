@@ -1,6 +1,7 @@
 package OOP;
 
 public class TeoriaOOP {
+	
 	public static void main(String args[]) {
 		Veicolo v = new Veicolo(5, 4);
 //		v.setMarca(Marca.BMW);
@@ -9,13 +10,14 @@ public class TeoriaOOP {
 //		System.out.println(a.calcolaConsumo(10));
 //		System.out.println(v.calcolaConsumo(10));
 //		System.out.println(a.calcolaConsumoVeicolo(10));
-		
+
 		confrontaConsumi(a, v);
 		
 	}
 	
 	static public void confrontaConsumi(Veicolo v1, Veicolo v2) {
 		String confronto = "più";
+		System.out.println();
 		if(v1 instanceof Automobile) {
 			Automobile a1 = (Automobile) v1;
 			test(a1);
