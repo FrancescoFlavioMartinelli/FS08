@@ -1,5 +1,6 @@
 package Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ES3 {
@@ -15,6 +16,9 @@ public class ES3 {
 //		}
 
 		System.out.println(Arrays.toString(na));
+		
+//		ArrayList<String> arr = new ArrayList<String>();
+//		arr.add("test");
 		
 		
 	}
