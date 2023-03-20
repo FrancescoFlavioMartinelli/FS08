@@ -6,7 +6,6 @@ public class Prodotto {
 	int qnt;
 	
 	public Prodotto(String n, int q) throws Exception, QuantitaException {
-		
 //		if(q == -173) {
 //			return false;
 //		}
